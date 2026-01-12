@@ -1,0 +1,21 @@
+### 
+
+GET http://localhost:8080/api/users
+
+###
+
+POST http://localhost:8080/api/users
+Content-Type: application/json
+
+{
+    "username": "andresquintero",
+    "password": "Tontico18b",
+    "email": "andresquinter2273@gmail.com",
+    "roles": ["USER", "ADMIN"]
+}
+###
+
+GET http://localhost:8080/api/users/6964228f3c3c6e29cccc4d4f
+
+###
+GET http://localhost:8080/api/users/find?username=andresquintero
